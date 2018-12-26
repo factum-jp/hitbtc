@@ -79,6 +79,11 @@ resp_subscribe_trades = 'Succesfully subscribed to {symbol} trade data!'
 resp_subscribe_candles = 'Succesfully subscribed to {symbol} candle data!'
 resp_subscribe_reports = 'Succesfully subscribed to account reports!'
 resp_login = 'Successfully logged in!'
+resp_unsubscribe_ticker = 'Succesfully unsubscribed to {symbol} ticker data!'
+resp_unsubscribe_book = 'Succesfully unsubscribed to {symbol} order book data!'
+resp_unsubscribe_trades = 'Succesfully unsubscribed to {symbol} trade data!'
+resp_unsubscribe_candles = 'Succesfully unsubscribed to {symbol} candle data!'
+resp_unsubscribe_reports = 'Succesfully unsubscribed to account reports!'
 
 response_types = {'getCurrency': resp_get_currency, 'getCurrencies': resp_get_currencies,
                   'getSymbol': resp_get_symbol, 'getSymbols': resp_get_symbols,
@@ -90,6 +95,11 @@ response_types = {'getCurrency': resp_get_currency, 'getCurrencies': resp_get_cu
                   'subscribeTrades': resp_subscribe_trades,
                   'subscribeCandles': resp_subscribe_candles,
                   'subscribeReports': resp_subscribe_reports,
+                  'unsubscribeTicker': resp_unsubscribe_ticker,
+                  'unsubscribeOrderbook': resp_unsubscribe_book,
+                  'unsubscribeTrades': resp_unsubscribe_trades,
+                  'unsubscribeCandles': resp_unsubscribe_candles,
+                  'unsubscribeReports': resp_unsubscribe_reports,
                   'newOrder': resp_place_order, 'cancelOrder': resp_cancel_order,
                   'cancelReplaceOrder': resp_cancel_replace_order,
                   'login' : resp_login}
